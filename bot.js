@@ -5,8 +5,6 @@ const PREFIX = "!";
 
 
 
-var bot = new Discord.Client();
-
 
 bot.on("guildMemberAdd", function(member)
 {
