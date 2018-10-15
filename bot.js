@@ -7,10 +7,6 @@ const PREFIX = "!";
 
 var bot = new Discord.Client();
 
-bot.on("ready", function() 
-{
-	console.log("ready");
-});
 
 bot.on("guildMemberAdd", function(member)
 {
@@ -81,7 +77,6 @@ bot.on("message", function(message)
 
 });
 
-bot.login(TOKEN);
 client.login(process.env.BOT_TOKEN);
 
 // DO NOT USE THIS BOT WITHOUT PERMISSION IN YOUR OWN SERVER
