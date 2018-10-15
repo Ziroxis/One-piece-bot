@@ -10,7 +10,7 @@ var bot = new Discord.Client();
 
 bot.on("guildMemberAdd", function(member)
 {
-	member.guild.channels.find("name", "welcome").sendMessage(member.toString() + " Welcome and be sure to read #to-begin")
+	member.guild.channels.find("name", "welcome").sendMessage(member.toString() + " Welcome and be sure to read #to-begin");
 });
 
 
